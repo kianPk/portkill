@@ -40,3 +40,7 @@ Dev servers, Vite, Next, Docker side-cars — ports get stuck. `portkill` wraps 
 ## License
 
 MIT © [kianPk](https://github.com/kianPk)
+
+## Notes
+
+Exit non-zero if the port cannot be freed; pair with `lsof`/`ss` in scripts.
